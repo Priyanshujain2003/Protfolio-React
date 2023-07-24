@@ -1,0 +1,356 @@
+@media screen and (max-width: 1024px) {
+    .burger {
+        display: block;
+    }
+
+    .nav .ul.active {
+        display: block;
+        background-color: rgb(12, 0, 30);
+    }
+
+    .nav .ul.active li {
+        display: block;
+    }
+
+    .ul {
+        transition: 0.5s;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .nav .ul li {
+        display: none;
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+
+
+
+    /* content */
+    .header-1 {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .header-content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .img {
+        animation: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+
+    /* shape divider css */
+    .custom-shape-divider-bottom-1689453602 {
+        position: absolute;
+        bottom: -70px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1689453602 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+
+    .custom-shape-divider-bottom-1689453602 .shape-fill {
+        fill: rgb(255, 255, 255);
+    }
+
+
+    /* skills */
+    .section-1 {
+        width: 100%;
+    }
+
+    .progress {
+        max-width: 80%;
+        min-height: 50%;
+    }
+
+    .section-2 {
+        width: 100%;
+    }
+
+    .skill-image {
+        min-width: 90%;
+    }
+
+    .skill-image-1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    /*  */
+
+}
+
+
+
+/*  */
+
+
+@media screen and (max-width: 850px) {
+
+
+    /* about */
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    .image-content {
+        width: 70%;
+    }
+
+    h4 {
+        margin-right: 0;
+    }
+
+    .about-image {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .img-1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 40px;
+    }
+
+    .social-2 {
+        padding-top: 5px;
+    }
+
+    /*  */
+
+    /* education */
+    .education-skills {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* skills */
+    .skills {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-1 {
+        width: 80%;
+    }
+
+    .progress {
+        max-width: 100%;
+    }
+
+    .app-1 {
+        margin-bottom: 20px;
+    }
+
+
+    .section-2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .skill-image {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+
+    /* project */
+    .project-div-1 {
+        flex-wrap: wrap;
+    }
+
+    .project-1 {
+        width: 35%;
+    }
+}
+
+/*  */
+
+
+
+@media screen and (max-width: 730px) {
+
+    /* project */
+    .project-div-1 {
+        flex-wrap: wrap;
+    }
+
+    .project-1 {
+        width: 55%;
+    }
+}
+
+/*  */
+
+
+@media screen and (max-width: 558px) {
+    .top {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    /* content */
+    .header-1 {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .header-content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .img {
+        animation: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+
+
+    /* shape divider css */
+    .custom-shape-divider-bottom-1689453602 {
+        position: absolute;
+        bottom: -125px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1689453602 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+
+    .custom-shape-divider-bottom-1689453602 .shape-fill {
+        fill: rgb(255, 255, 255);
+    }
+
+
+    /* about */
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    .header-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-content {
+        width: 95%;
+    }
+
+    h4 {
+        margin-right: 0;
+    }
+
+    .social-2 {
+        padding-top: 5px;
+    }
+
+    /* education */
+    .Education {
+        width: 90%;
+    }
+
+    .certificate {
+        width: 90%;
+    }
+
+
+    /* skill-image */
+
+    .skill-image {
+        min-width: 90%;
+    }
+
+    .skill-image-1 {
+        height: 30px;
+        width: 30px;
+    }
+
+
+    /* project */
+    .project {
+        display: block;
+    }
+
+    .project-div-1 {
+        flex-wrap: wrap;
+    }
+
+    .project-1 {
+        width: 95%;
+    }
+
+    /* contact */
+    form {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-1 {
+        font-size: 12px;
+    }
+
+}

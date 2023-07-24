@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.nav {
+    background-color: rgb(12, 0, 30);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.top {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 70px;
+    cursor: pointer;
+    animation-name: priyanshu;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+
+@keyframes priyanshu {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 50px;
+    }
+}
+
+span {
+    color: rgb(244, 136, 5);
+}
+
+
+/* toogle icon */
+.burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  /*  */
+
+.logo {
+    border: 1px solid rgb(244, 136, 5);
+    background-color: rgb(244, 136, 5);
+    color: white;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list ul li {
+    list-style: none;
+    padding: 8px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    transition: all 0.5s;
+}
+
+.list ul li a:hover {
+    color: blue;
+}
+
+.list ul li a.active {
+    color: rgb(244, 136, 5);
+}
+
+.list ul li a.active:hover {
+    color: blue;
+}
+
+
+.list ul li .button {
+    background-color: rgb(244, 136, 5);
+    /* box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 25px rgb(244, 136, 5); */
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.list ul li .button:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 25px rgb(244, 136, 5), 0 0 50px rgb(244, 136, 5);
+
+}

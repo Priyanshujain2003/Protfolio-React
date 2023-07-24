@@ -1,0 +1,83 @@
+.contact {
+
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient(to top, rgb(25, 4, 32), rgb(11, 0, 13));
+    margin-top: 3px;
+    display: flex;
+}
+
+
+.form-button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.icon-2 {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.2s;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-2 {
+    width: 100%;
+}
+
+
+.form-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+}
+
+.name {
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 85%;
+    background: linear-gradient(to top, rgb(25, 4, 32), rgb(11, 0, 13));
+    border: none;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    margin-top: 10px;
+}
+
+label {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+textarea {
+    background: linear-gradient(to top, rgb(25, 4, 32), rgb(11, 0, 13));
+    border: none;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 10px;
+    width: 85%;
+    height: 100px;
+    color: white;
+}
+
+.sub
+{
+    width: 20%;
+    border: 2px solid rgb(244, 136, 5);
+    box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 5px rgb(244, 136, 5);
+    margin-left: 30px;
+    margin-bottom: 40px;
+}

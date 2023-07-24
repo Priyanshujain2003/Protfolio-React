@@ -1,0 +1,120 @@
+.skills {
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient(to top, rgb(25, 4, 32), rgb(11, 0, 13));
+    margin-top: 3px;
+    display: flex;
+}
+
+.section-1 {
+    width: 50%;
+    margin: 50px;
+}
+
+/*  */
+.progress {
+    border: 2px solid rgb(244, 136, 5);
+    box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 5px rgb(244, 136, 5);
+    margin-top: 20px;
+    min-height: 70%;
+    max-width: 70%;
+    transition: all 0.5s;
+}
+
+.progress:hover {
+    box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 15px rgb(244, 136, 5), 0 0 25px rgb(244, 136, 5);
+}
+
+
+/*  */
+.app {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.app-1 {
+    border: 2px double rgb(243, 243, 243);
+    box-shadow: 0 0 5px rgb(244, 136, 5), 0 0 10px rgb(244, 136, 5);
+    width: 85%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.bar-frontend {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(244, 136, 5);
+    width: 85%;
+    min-height: 10px;
+}
+
+.percent {
+    text-align: right;
+}
+
+/*  */
+.bar-backend {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(244, 136, 5);
+    width: 70%;
+    min-height: 10px;
+}
+
+
+/*  */
+.bar-database {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(244, 136, 5);
+    width: 75%;
+    min-height: 10px;
+}
+
+/*  */
+.bar-photoshop {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(244, 136, 5);
+    width: 70%;
+    min-height: 10px;
+}
+
+
+
+
+
+.section-2 {
+    width: 50%;
+    margin: 50px;
+}
+
+.skill-image {
+    margin-top: 50px;
+    min-height: 80%;
+    max-width: 90%;
+}
+
+
+.skill-image-1 {
+    border-radius: 0%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+}
+
+
+.skill-image-1:hover {
+    transform: scale(1.2);
+}
